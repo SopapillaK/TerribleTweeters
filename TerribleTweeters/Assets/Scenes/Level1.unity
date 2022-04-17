@@ -1938,7 +1938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 269597384183115869, guid: bd72f54fa4bc09848946a19b24ba8317, type: 3}
       propertyPath: orthographic size
-      value: 4.3435664
+      value: 5.4492188
       objectReference: {fileID: 0}
     - target: {fileID: 269597384183115938, guid: bd72f54fa4bc09848946a19b24ba8317, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2013,6 +2013,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1581466738783926792, guid: 4a8607d6a3eb8c748a9e91cc92f1a459, type: 3}
+      propertyPath: m_Name
+      value: resumeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581466738783926798, guid: 4a8607d6a3eb8c748a9e91cc92f1a459, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LRestart
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581466738783926799, guid: 4a8607d6a3eb8c748a9e91cc92f1a459, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 174
+      objectReference: {fileID: 0}
     - target: {fileID: 1581466738905449995, guid: 4a8607d6a3eb8c748a9e91cc92f1a459, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -2025,6 +2037,12 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
+    - target: {fileID: 1581466739061889816, guid: 4a8607d6a3eb8c748a9e91cc92f1a459, type: 3}
+      propertyPath: m_Text
+      value: 'RESTART
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 1581466739061889816, guid: 4a8607d6a3eb8c748a9e91cc92f1a459, type: 3}
       propertyPath: m_Color.b
       value: 0
