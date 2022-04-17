@@ -42,6 +42,7 @@ public class PauseMenu : MonoBehaviour
     public void LRestart()
     {
         Debug.Log("Restarting level...");
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
